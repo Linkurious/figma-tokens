@@ -51,7 +51,6 @@ StyleDictionary.registerTransform({
         }px ${shadow.spread}px ${shadow.color}`
       );
     });
-    console.log("join", values.join(", "));
     return values.join(", ");
   },
 });
@@ -64,7 +63,6 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     // token.value will be resolved and transformed at this point
-    console.log(token);
     return `${token.value.fontWeight === "Regular" ? "400" : "500"} ${pxToRem(
       token.value.fontSize
     )}/${pxToRem(token.value.lineHeight)} "${token.value.fontFamily}"`;

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "figma-to-style-dic": "token-transformer tokens style-dic-tokens.json",
-    "tokens": "style-dictionary build"
+    "tokens": "style-dictionary build",
+    "build": "node split-sets.js && npm run figma-to-style-dic && npm run tokens"
   },
   "repository": {
     "type": "git",
