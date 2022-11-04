@@ -1,0 +1,88 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 04 Nov 2022 09:33:27 GMT
+ */
+
+:root {
+  --token-set-order-0: global;
+  --token-set-order-1: justin;
+  --height: 167;
+  --color-primary-light: #E6EFFE;
+  --color-primary-default: #0062FA;
+  --color-primary-dark: #0E52BC;
+  --color-primary-darker: #1D4481;
+  --color-grayscale-lighter: #F6F7F7;
+  --color-grayscale-light: #E1E5E6;
+  --color-grayscale-default: #AFB3B4;
+  --color-grayscale-dark: #808384;
+  --color-grayscale-darker: #5E6464;
+  --color-grayscale-black: #303030;
+  --color-grayscale-white: #FFFFFF;
+  --color-event-error: #D80000;
+  --color-event-success: #7ABF01;
+  --color-event-warning: #FF7A01;
+  --color-event-info: #0062FA;
+  --color-typography-primary-default: #0062FA;
+  --color-typography-grayscale-default: #AFB3B4;
+  --color-typography-grayscale-darker: #5E6464;
+  --color-typography-grayscale-black: #303030;
+  --color-typography-grayscale-white: #FFFFFF;
+  --color-typography-event-error: #D80000;
+  --color-typography-event-info: #0062FA;
+  --color-tag-default-grey: #7F7F7F;
+  --color-tag-default-brown: #8C564C;
+  --color-tag-default-orange: #FF7F0F;
+  --color-tag-default-red: #D72829;
+  --color-tag-default-moss: #BCBD23;
+  --color-tag-default-green: #2DA02D;
+  --color-tag-default-cyan: #17BECF;
+  --color-tag-default-blue: #1E77B4;
+  --color-tag-default-pink: #E377C7;
+  --color-tag-default-purple: #9467BD;
+  --color-tag-light-grey: #C7C7C7;
+  --color-tag-light-brown: #C49D94;
+  --color-tag-light-orange: #FFBB78;
+  --color-tag-light-red: #FF9896;
+  --color-tag-light-moss: #DBDB8D;
+  --color-tag-light-green: #97DF8A;
+  --color-tag-light-cyan: #9EDAE5;
+  --color-tag-light-blue: #AEC7E8;
+  --color-tag-light-pink: #F7B6D2;
+  --color-tag-light-purple: #C5B0D5;
+  --radius-default: 4;
+  --shadow-low: [object Object],[object Object];
+  --inner: [object Object],[object Object];
+  --spacing-xxs: 4;
+  --spacing-xs: 8;
+  --spacing-s: 12;
+  --spacing-m: 16;
+  --spacing-l: 20;
+  --spacing-xl: 28;
+  --spacing-xxl: 32;
+  --width-default: 1;
+  --opacity-default: 0.8;
+  --text-decoration-underline: underline;
+  --case-uppercase: uppercase;
+  --case-capitalize: capitalize;
+  --font-family-roboto: Roboto;
+  --font-weight-regular: Regular;
+  --font-weight-medium: Medium;
+  --font-size-s: 12;
+  --font-size-m: 14;
+  --font-size-l: 18;
+  --font-size-xl: 22;
+  --line-height-m: 16;
+  --line-height-l: 20;
+  --line-height-xl: 24;
+  --typo-headline1: [object Object];
+  --typo-headline2: [object Object];
+  --typo-subtitle: [object Object];
+  --typo-paragraph: [object Object];
+  --typo-caption: [object Object];
+  --typo-label: [object Object];
+  --typo-hypertext: [object Object];
+  --typo-hint: [object Object];
+  --button-default: [object Object];
+  --button-small: [object Object];
+  --size-default: 16;
+}

@@ -4,6 +4,7 @@
   "description": "Get design tokens from Figma and export them as CSS variables",
   "main": "index.js",
   "scripts": {
+    "figma-to-style-dic": "token-transformer tokens.json style-dic-tokens.json",
     "tokens": "style-dictionary build"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Linkurious/figma-tokens#readme",
   "dependencies": {
-    "style-dictionary": "^3.7.1"
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27"
   }
 }

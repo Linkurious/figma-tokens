@@ -1,5 +1,5 @@
 module.exports = {
-  source: ["tokens.json"],
+  source: ["style-dic-tokens.json"],
   platforms: {
     css: {
       transforms: ["attribute/cti", "name/cti/kebab"],
