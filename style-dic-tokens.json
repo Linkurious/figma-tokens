@@ -1,12 +1,14 @@
 {
   "justin": {
-    "height": {
-      "value": 167,
-      "type": "sizing"
-    },
-    "global-ref": {
-      "value": 48,
-      "type": "sizing"
+    "size": {
+      "height": {
+        "value": 167,
+        "type": "sizing"
+      },
+      "global-ref": {
+        "value": 48,
+        "type": "sizing"
+      }
     }
   },
   "global": {
