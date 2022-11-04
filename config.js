@@ -18,6 +18,10 @@ StyleDictionary.registerTransform({
   },
 });
 
+const pxToRem = function (size) {
+  return size / 16 + "rem";
+};
+
 StyleDictionary.registerTransform({
   type: `attribute`,
   name: `lk/size/pxToRem`,
@@ -26,7 +30,7 @@ StyleDictionary.registerTransform({
   },
   transformer: (token) => {
     // token.value will be resolved and transformed at this point
-    token.value = token.value / 16 + "rem";
+    token.value = pxToRem(token.value);
   },
 });
 
@@ -53,6 +57,21 @@ StyleDictionary.registerTransform({
 });
 
 StyleDictionary.registerTransform({
+  type: `value`,
+  name: `lk/typography`,
+  matcher: (token) => {
+    return token.type === "typography";
+  },
+  transformer: (token) => {
+    // token.value will be resolved and transformed at this point
+    console.log(token);
+    return `${token.value.fontWeight === "Regular" ? "400" : "500"} ${pxToRem(
+      token.value.fontSize
+    )}/${pxToRem(token.value.lineHeight)} "${token.value.fontFamily}"`;
+  },
+});
+
+StyleDictionary.registerTransform({
   type: `attribute`,
   name: `lk/dump`,
   transformer: (token) => {
@@ -71,6 +90,7 @@ module.exports = {
         "name/cti/camel",
         "lk/size/pxToRem",
         "lk/dropShadow",
+        "lk/typography",
       ],
       files: [
         {
