@@ -8,6 +8,6 @@ for (const [set, value] of Object.entries(tokens)) {
   console.log("set", set);
   fs.writeFileSync(
     "tokens/" + set + ".json",
-    JSON.stringify({ [set]: value }).replaceAll(':"{', ':"{' + set + ".")
+    JSON.stringify({ [set]: value }).replaceAll(':"{', ':"{global.')
   );
 }
