@@ -1,0 +1,22 @@
+{
+  "name": "figma-tokens",
+  "version": "0.0.1",
+  "description": "Get design tokens from Figma and export them as CSS variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linkurious/figma-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linkurious/figma-tokens/issues"
+  },
+  "homepage": "https://github.com/Linkurious/figma-tokens#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  }
+}
