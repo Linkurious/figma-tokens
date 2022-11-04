@@ -1,11 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 15:09:44 GMT
+ * Generated on Fri, 04 Nov 2022 15:20:18 GMT
  */
 
 :root {
-  --justinSizeHeight: 10.4375rem;
-  --justinSizeGlobalRef: 3rem;
   --globalColorPrimaryLight: #E6EFFE;
   --globalColorPrimaryDefault: #0062FA;
   --globalColorPrimaryDark: #0E52BC;
@@ -84,4 +82,7 @@
   --globalButtonDefault: 500 0.875rem/1rem "Roboto";
   --globalButtonSmall: 500 0.75rem/1rem "Roboto";
   --globalSizeDefault: 1rem;
+  --buttonSizeNormal: 2rem;
+  --buttonColorBackgroundDefault: #0E52BC;
+  --buttonRadiusPill: 4rem;
 }

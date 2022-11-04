@@ -1,16 +1,4 @@
 {
-  "justin": {
-    "size": {
-      "height": {
-        "value": 167,
-        "type": "sizing"
-      },
-      "global-ref": {
-        "value": 48,
-        "type": "sizing"
-      }
-    }
-  },
   "global": {
     "color": {
       "primary": {
@@ -470,6 +458,28 @@
       "default": {
         "value": 16,
         "type": "sizing"
+      }
+    }
+  },
+  "button": {
+    "size": {
+      "normal": {
+        "value": 32,
+        "type": "sizing"
+      }
+    },
+    "color": {
+      "background": {
+        "default": {
+          "value": "#0E52BC",
+          "type": "color"
+        }
+      }
+    },
+    "radius": {
+      "pill": {
+        "value": 64,
+        "type": "borderRadius"
       }
     }
   }
