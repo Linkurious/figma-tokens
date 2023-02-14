@@ -9,7 +9,7 @@
   "scripts": {
     "figma-to-style-dic": "token-transformer tokens tokens/style-dic-tokens.json",
     "tokens": "style-dictionary build",
-    "build": "node split-sets.js && npm run figma-to-style-dic && npm run tokens"
+    "build": "mkdir tokens && node split-sets.js && npm run figma-to-style-dic && npm run tokens"
   },
   "repository": {
     "type": "git",
