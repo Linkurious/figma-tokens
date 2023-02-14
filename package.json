@@ -2,6 +2,9 @@
   "name": "figma-tokens",
   "version": "0.0.1",
   "description": "Get design tokens from Figma and export them as CSS variables",
+  "engines": {
+    "node": "16.19.0"
+  },
   "main": "index.js",
   "scripts": {
     "figma-to-style-dic": "token-transformer tokens style-dic-tokens.json",
