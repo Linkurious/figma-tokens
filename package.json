@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "figma-to-style-dic": "token-transformer tokens style-dic-tokens.json",
+    "figma-to-style-dic": "token-transformer tokens tokens/style-dic-tokens.json",
     "tokens": "style-dictionary build",
     "build": "node split-sets.js && npm run figma-to-style-dic && npm run tokens"
   },
@@ -24,5 +24,8 @@
   "dependencies": {
     "style-dictionary": "^3.7.1",
     "token-transformer": "^0.0.27"
-  }
+  },
+  "files": [
+    "tokens/tokens.css"
+  ]
 }
