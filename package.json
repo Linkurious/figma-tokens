@@ -2,11 +2,14 @@
   "name": "figma-tokens",
   "version": "0.0.1",
   "description": "Get design tokens from Figma and export them as CSS variables",
+  "engines": {
+    "node": "16.19.0"
+  },
   "main": "index.js",
   "scripts": {
-    "figma-to-style-dic": "token-transformer tokens style-dic-tokens.json",
+    "figma-to-style-dic": "token-transformer tokens tokens/style-dic-tokens.json",
     "tokens": "style-dictionary build",
-    "build": "node split-sets.js && npm run figma-to-style-dic && npm run tokens"
+    "build": "mkdir tokens && node split-sets.js && npm run figma-to-style-dic && npm run tokens"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,10 @@
   },
   "homepage": "https://github.com/Linkurious/figma-tokens#readme",
   "dependencies": {
-    "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.27"
-  }
+    "style-dictionary": "3.7.1",
+    "token-transformer": "0.0.27"
+  },
+  "files": [
+    "tokens/tokens.css"
+  ]
 }

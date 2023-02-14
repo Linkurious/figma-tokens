@@ -79,7 +79,7 @@ StyleDictionary.registerTransform({
 });
 
 module.exports = {
-  source: ["style-dic-tokens.json"],
+  source: ["tokens/style-dic-tokens.json"],
   platforms: {
     css: {
       transforms: [
@@ -93,7 +93,7 @@ module.exports = {
       files: [
         {
           format: "css/variables",
-          destination: "tokens.css",
+          destination: "tokens/tokens.css",
         },
       ],
     },
